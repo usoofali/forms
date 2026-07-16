@@ -496,7 +496,7 @@ get_db();
                     // Thumbnail check
                     let thumbHtml = '';
                     if (stu.photo && stu.photo !== '') {
-                        thumbHtml = `<img src="${stu.photo}?t=${Date.now()}" alt="thumb" class="w-9 h-9 rounded-lg object-cover border border-brand-500/40 shrink-0 shadow-sm">`;
+                        thumbHtml = `<img src="${stu.photo}?t=${Date.now()}" alt="thumb" class="w-9 h-9 object-cover border border-brand-500/40 shrink-0 shadow-sm">`;
                     } else {
                         thumbHtml = `
                             <div class="w-9 h-9 rounded-lg bg-gray-800 border border-dark-border flex items-center justify-center text-gray-500 shrink-0">
