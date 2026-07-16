@@ -87,12 +87,6 @@ get_db();
                     Graduand Bio & Photo Portal
                 </a>
             </div>
-
-            <!-- Help / Note Indicator -->
-            <div class="hidden lg:flex items-center gap-2 text-xs text-gray-400 bg-dark-card border border-dark-border px-3.5 py-2 rounded-xl">
-                <i data-lucide="info" class="w-4 h-4 text-brand-400"></i>
-                <span>Fresh candidates must complete photo upload</span>
-            </div>
         </div>
     </header>
 
